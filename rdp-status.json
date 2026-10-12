@@ -116,5 +116,6 @@
     "windows_server": true,
     "os": "Microsoft Windows Server 2025 Datacenter",
     "hypervisor_present": true
-  }
+  },
+  "heartbeat_at": "2026-10-12T10:46:41.8127837Z"
 }
