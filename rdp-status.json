@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "hostname": "xyrdp-samp-7",
   "os": "Microsoft Windows Server 2025 Datacenter",
   "os_build": "10.0.26100",
@@ -41,11 +41,12 @@
   "akses": {
     "mode": "tailscale",
     "tailscale": {
-      "hostname": "xyrdp-samp-7",
-      "magicdns": "xyrdp-samp-7.tail8f0a75.ts.net.",
       "status": "ok",
       "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
-      "ip": "100.93.177.60"
+      "ip": "",
+      "magicdns": "",
+      "hostname": "",
+      "funnel_addr": ""
     }
   },
   "media": {
@@ -108,5 +109,6 @@
       "note": "Tidak dipilih"
     }
   },
-  "heartbeat_at": "2026-10-17T18:18:17.2950328Z"
+  "heartbeat_at": "2026-10-17T18:18:17.2950328Z",
+  "stopped_at": "2026-10-17T18:22:06Z"
 }
